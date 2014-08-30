@@ -13,3 +13,5 @@ Small tool using Ghostscript to simplify PDFs created by Scribus, make them smal
 - <http://wiki.scribus.net/canvas/Reduce_the_size_of_Scribus_generated_PDFs>
 - <http://libregraphicsworld.org/blog/entry/qml-exporting-script-makes-gimp-a-ui-design-tool7>
 - <http://www.ics.com/blog/whole-shebang-running-qml-files-directly>
+- http://arstechnica.com/information-technology/2009/03/how-to-deploying-pyqt-applications-on-windows-and-mac-os-x/
+- http://www.riverbankcomputing.co.uk/software/pyqt/download5
