@@ -3,6 +3,17 @@
 
 Small tool using Ghostscript to simplify PDFs created by Scribus, make them smaller in size and better suited for publishing on the web.
 
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/prepress 
+-dNOPAUSE -dQUIET -dBATCH -sOutputFile=newfile.pdf myfile.pdf
+
+If the file is for screen viewing use
+
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen 
+-dNOPAUSE -dQUIET -dBATCH -sOutputFile=newfile.pdf myfile.pdf
+
+I do this regularly with files to be sent to print and there has never 
+been any problem
+
 # TODO
 
 - find a name for the project
