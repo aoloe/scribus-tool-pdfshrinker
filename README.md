@@ -14,6 +14,10 @@ gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen
 I do this regularly with files to be sent to print and there has never 
 been any problem
 
+It is probably better to add -c .setpdfwrite in the command line, for example
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/prepress -dNOPAUSE -dQUIET -dBATCH -sOutputFile=newfile.pdf -c .setpdfwrite -f myfile.pdf
+See http://ghostscript.com/doc/current/Language.htm#.setpdfwrite and http://ghostscript.com/doc/current/Ps2pdf.htm#Limitations
+
 # TODO
 
 - find a name for the project
